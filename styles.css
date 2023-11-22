@@ -1,0 +1,26 @@
+@keyframes moveDiagonal {
+    0%, 100% {
+      transform: translateY(0) translateX(0);
+    }
+    50% {
+      transform: translateY(-10px) translateX(-10px);
+    }
+  }
+
+  /* Apply the Animation to the Image */
+  .animated-image-diagonal {
+    animation: moveDiagonal 3s infinite;
+    width: 400px; /* Adjust the width as needed */
+  }
+
+/* Carousel Slides */
+.carousel-body {
+    background-color: aqua;
+}
+
+
+.team-img {
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 10%;
+}
